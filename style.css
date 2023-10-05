@@ -1,0 +1,62 @@
+html{
+    background: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=628&q=80) no-repeat  ;
+    background-size: cover;
+    height: 100vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.main-content{
+    text-align: center;
+    background-color: #fff;
+    width: 400px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+   
+}
+
+h2{
+    background-color: #262626 ;
+    border: solid 2px white;
+    text-align: center;
+    color:#fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    width: 80%;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.Quote{
+    margin-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 25px 45px 0px 45px;
+}
+
+.Author{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: black;
+    color:white;
+    padding: 5px ;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+button:active{
+    background-color: lightblue;
+}
